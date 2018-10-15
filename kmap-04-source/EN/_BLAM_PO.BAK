@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-03-23 16:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../blam.cpp:12
+msgid "Karnaugh Map Minimizer"
+msgstr ""
+
+#: ../blamFrame.cpp:38
+msgid "&About"
+msgstr ""
+
+#: ../blamFrame.cpp:42
+msgid "E&xit"
+msgstr ""
+
+#: ../blamFrame.cpp:50
+msgid "&Program"
+msgstr ""
+
+#: ../blamFrame.cpp:57
+msgid "Welcome to Karnaugh Map Minimizer!"
+msgstr ""
+
+#: ../blamFrame.cpp:71
+msgid "Truth table"
+msgstr ""
+
+#: ../blamFrame.cpp:106
+msgid "Solve"
+msgstr ""
+
+#: ../blamFrame.cpp:110
+msgid "Solution:"
+msgstr ""
+
+#: ../blamFrame.cpp:118
+msgid "Karnaugh map"
+msgstr ""
+
+#: ../blamFrame.cpp:124
+msgid "Number of variables: "
+msgstr ""
+
+#: ../blamFrame.cpp:128
+msgid "Type of solution: "
+msgstr ""
+
+#: ../blamFrame.cpp:130
+msgid "Sum of products"
+msgstr ""
+
+#: ../blamFrame.cpp:131
+msgid "Product of sums"
+msgstr ""
+
+#: ../blamFrame.cpp:172
+msgid "Solving, please wait..."
+msgstr ""
+
+#: ../blamFrame.cpp:356
+msgid "Karnaugh map solved!"
+msgstr ""
+
+#: ../blamFrame.cpp:383
+msgid ""
+"This is a program for minimizing boolean functions using Karnaugh maps "
+"method.\n"
+"\n"
+"Homepage: http://k-map.sourceforge.net\n"
+"\n"
+"Copyright (C) 2005. Robert Kovacevic\n"
+"\n"
+"\n"
+"GUI powered by WxWidgets ( www.wxwindows.org )\n"
+"\n"
+"This program is free software published under General Public License (GPL)"
+msgstr ""
+
+#: ../blamFrame.cpp:388
+msgid "About Karnaugh Map Minimizer v0.4"
+msgstr ""
+
+#: ../truthTable.cpp:35
+msgid "Set to 1 -RADI-"
+msgstr ""
+
+#: ../truthTable.cpp:39
+msgid "Set to 0"
+msgstr ""
+
+#: ../truthTable.cpp:43
+msgid "Set to \"don't care\""
+msgstr ""
+
+#: ../truthTable.cpp:47
+msgid "Set randomly"
+msgstr ""
