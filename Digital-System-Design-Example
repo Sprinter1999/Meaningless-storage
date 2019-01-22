@@ -1,0 +1,51 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity counter is
+	port(
+			clk:in std_logic;
+			q:inout std_logic_vector(3 Downto 0);
+			dgt:out std_logic_vector(6 Downto 0));
+end counter;
+
+architecture behave of counter is
+	--signal y:std_logic_vector(3 downto 0);
+	begin
+			process(clk)
+			begin
+				if(rising_edge(clk))then
+				case q is
+					when "0000"=> q<="0001";
+					when "0001"=> q<="0010";
+					when "0010"=> q<="0011";
+					when "0011"=> q<="0100";
+					when "0100"=> q<="0101";
+					when "0101"=> q<="0110";
+					when "0110"=> q<="0111";
+					when "0111"=> q<="1000";
+					when "1000"=> q<="1001";
+					when "1001"=> q<="0000";
+					when others=> q<="0000";
+				end case;
+				end if;
+			end process;
+		--q<=y;	
+		process(q)
+			begin
+				case q is
+					when "0000"=> dgt<="1111110";
+					when "0001"=> dgt<="0110000";
+					when "0010"=> dgt<="1101101";
+					when "0011"=> dgt<="1111001";
+					when "0100"=> dgt<="0110011";
+					when "0101"=> dgt<="1011011";
+					when "0110"=> dgt<="0011111";
+					when "0111"=> dgt<="1110000";
+					when "1000"=> dgt<="1111111";
+					when "1001"=> dgt<="1110011";
+					when others=> dgt<="0000000";
+				end case;
+			end process;
+			
+end behave;
+--This is a mod 10 counter which can be run in the TEC-8 Experiment table kernel chip
