@@ -1,0 +1,75 @@
+a=[8, 15, 0; 8, 20, 0; 0, 20, 0; 0, 15, 0; 8, 15, 5; 8, 20, 5;
+0, 20,5; 0, 15, 5;
+ 22, 14, 5; 22, 19, 5; 14, 19, 5; 14, 14, 5; 22, 14, 10; 22, 19,
+10; 14, 19, 10; 14, 14, 10;
+ 13, 15, 5; 13, 20, 5; 5, 20, 5; 5, 15, 5; 13, 15, 10; 13, 20,
+10; 5, 20, 10; 5, 15, 10;
+ 5, 7, 5; 5, 15, 5; 0, 15, 5; 0, 7, 5; 5, 7, 10; 5, 15, 10; 0,
+15, 10; 0, 7, 10;
+ 10, 7, 5; 10, 15, 5; 5, 15, 5; 5, 7, 5; 10, 7, 10; 10, 15, 10;
+5, 15, 10; 5, 7, 10;
+ 14, 0, 0; 14, 7, 0; 0, 7, 0; 0, 0, 0; 14, 0, 5; 14, 7, 5; 0, 7,
+5; 0, 0, 5;
+ 14, 7, 0; 14, 14, 0; 0, 14, 0; 0, 7, 0; 14, 7, 5; 14, 14, 5; 0,
+14, 5; 0, 7, 5;
+ 14, 0, 5; 14, 7, 5; 0, 7, 5; 0, 0, 5; 14, 0, 10; 14, 7, 10; 0,
+7, 10; 0, 0, 10;
+ 21, 0, 0; 21, 14, 0; 14, 14, 0; 14, 0, 0; 21, 0, 5; 21, 14, 5;
+14, 14, 5; 14, 0, 5;
+ 21, 0, 5; 21, 14, 5; 14, 14, 5; 14, 0, 5; 21, 0, 10; 21, 14,
+10; 14, 14, 10; 14, 0, 10;
+ 24, 0, 0; 24, 20, 0; 0, 20, 0; 0, 0, 0; 24, 0, 20; 24, 20, 20;
+0, 20, 20; 0, 0, 20];
+ b = [1 2 6 5;2 3 7 6;3 4 8 7;4 1 5 8;1 2 3 4;5 6 7 8];
+x1=5;
+x2=0;
+ x3=5;
+ x4=0;
+ x5=0;
+ x6=0;
+ x7=0;
+ x8=0;
+ x9=0;
+ x10=0;
+ x11=0;
+ for ii=1:8:(x1+x2+x3+x4+x5+x6+x7+x8+x9+x10+x11)*8
+ if ii<x1*8
+ patch(’faces’,b,’vertices’,a(ii:ii+8,:),’facecolor’,’w’
+,’edgecolor’,’r’,’facealpha’,0.3);
+ elseif ii<(x1+x2)*8
+ patch(’faces’,b,’vertices’,a(ii:ii+8,:),’facecolor’,’w’
+,’edgecolor’,[0.9 0.1 0.7],’facealpha’,0.3);
+ elseif ii<(x1+x2+x3)*8
+patch(’faces’,b,’vertices’,a(ii:ii+8,:),’facecolor’,’w’
+,’edgecolor’,’b’,’facealpha’,0.3);
+ elseif ii<(x1+x2+x3+x4)*8
+ patch(’faces’,b,’vertices’,a(ii:ii+8,:),’facecolor’,’w’
+,’edgecolor’,’c’,’facealpha’,0.3);
+ elseif ii<(x1+x2+x3+x4+x5)*8
+ patch(’faces’,b,’vertices’,a(ii:ii+8,:),’facecolor’,’w’
+,’edgecolor’,’m’,’facealpha’,0.3);
+ elseif ii<(x1+x2+x3+x4+x5+x6)*8
+ patch(’faces’,b,’vertices’,a(ii:ii+8,:),’facecolor’,’w’
+,’edgecolor’,[0.7 0.9 0.1],’facealpha’,0.3);
+ elseif ii<(x1+x2+x3+x4+x5+x6+x7)*8
+ patch(’faces’,b,’vertices’,a(ii:ii+8,:),’facecolor’,’w’
+,’edgecolor’,’k’,’facealpha’,0.3);
+ elseif ii<(x1+x2+x3+x4+x5+x6+x7+x8)*8
+ patch(’faces’,b,’vertices’,a(ii:ii+8,:),’facecolor’,’w’
+,’edgecolor’,’w’,’facealpha’,0.3);
+ elseif ii<(x1+x2+x3+x4+x5+x6+x7+x8+x9)*8
+ patch(’faces’,b,’vertices’,a(ii:ii+8,:),’facecolor’,’
+w’,’edgecolor’,[0.3 0.8 0.9],’facealpha’,0.3);
+ elseif ii<(x1+x2+x3+x4+x5+x6+x7+x8+x9+x10)*8
+ patch(’faces’,b,’vertices’,a(ii:ii+8,:),’facecolor’,’w
+’,’edgecolor’,[0.8 0.3 0.9],’facealpha’,0.3);
+ else
+ patch(’faces’,b,’vertices’,a(ii:ii+8,:),’facecolor’,’w’
+,’edgecolor’,[0.9 0.3 0.8],’facealpha’,0.3);
+ end
+ axis equal
+ hold on
+ end
+ patch(’faces’,b,’vertices’,[24, 0, 0; 24, 20, 0; 0, 20, 0; 0,
+0, 0; 24, 0, 20; 24, 20, 20; 0, 20, 20; 0, 0, 20],’facecolor
+’,’b’,’edgecolor’,[0.1,0.3,0.8],’facealpha’,0);
