@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="128 128 128" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="1920">
+<PageBlocks>
+<Block genus-name="enb" id="482">
+<Location>
+<X>321</X>
+<Y>273</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="441" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="ena" id="481">
+<Location>
+<X>321</X>
+<Y>219</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="438" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="motor_go_forward" id="480">
+<Location>
+<X>266</X>
+<Y>938</Y>
+</Location>
+<BeforeBlockId>469</BeforeBlockId>
+</Block>
+<Block genus-name="not" id="477">
+<Location>
+<X>315</X>
+<Y>813</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="470" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="478" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="df_adjustable_infrared_sensor_switch" id="478">
+<Location>
+<X>357</X>
+<Y>813</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="477" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="479" connector-kind="socket" connector-type="number" init-type="number" label="针脚#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="479">
+<Label>2</Label>
+<Location>
+<X>543</X>
+<Y>813</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="478" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="if" id="469">
+<Location>
+<X>189</X>
+<Y>810</Y>
+</Location>
+<BeforeBlockId>460</BeforeBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="470" connector-kind="socket" connector-type="boolean" init-type="boolean" label="test" position-type="single"/>
+<BlockConnector con-block-id="480" connector-kind="socket" connector-type="cmd" init-type="cmd" label="then" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="and" id="470">
+<Location>
+<X>269</X>
+<Y>813</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="469" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="477" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+<BlockConnector con-block-id="473" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="not" id="473">
+<Location>
+<X>315</X>
+<Y>873</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="470" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="474" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="df_adjustable_infrared_sensor_switch" id="474">
+<Location>
+<X>357</X>
+<Y>873</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="473" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="475" connector-kind="socket" connector-type="number" init-type="number" label="针脚#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="475">
+<Label>3</Label>
+<Location>
+<X>543</X>
+<Y>873</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="474" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="and" id="461">
+<Location>
+<X>269</X>
+<Y>651</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="460" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="465" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+<BlockConnector con-block-id="462" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="not" id="462">
+<Location>
+<X>315</X>
+<Y>711</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="461" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="463" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="df_adjustable_infrared_sensor_switch" id="463">
+<Location>
+<X>357</X>
+<Y>711</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="462" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="464" connector-kind="socket" connector-type="number" init-type="number" label="针脚#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="464">
+<Label>3</Label>
+<Location>
+<X>543</X>
+<Y>711</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="463" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="df_adjustable_infrared_sensor_switch" id="465">
+<Location>
+<X>315</X>
+<Y>651</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="461" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="466" connector-kind="socket" connector-type="number" init-type="number" label="针脚#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="466">
+<Label>2</Label>
+<Location>
+<X>501</X>
+<Y>651</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="465" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="motor_go_right" id="468">
+<Location>
+<X>266</X>
+<Y>776</Y>
+</Location>
+<BeforeBlockId>460</BeforeBlockId>
+</Block>
+<Block genus-name="if" id="460">
+<Location>
+<X>189</X>
+<Y>648</Y>
+</Location>
+<BeforeBlockId>451</BeforeBlockId>
+<AfterBlockId>469</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="461" connector-kind="socket" connector-type="boolean" init-type="boolean" label="test" position-type="single"/>
+<BlockConnector con-block-id="468" connector-kind="socket" connector-type="cmd" init-type="cmd" label="then" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="motor_go_left" id="459">
+<Location>
+<X>266</X>
+<Y>614</Y>
+</Location>
+<BeforeBlockId>451</BeforeBlockId>
+</Block>
+<Block genus-name="not" id="458">
+<Location>
+<X>315</X>
+<Y>489</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="452" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="453" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="df_adjustable_infrared_sensor_switch" id="453">
+<Location>
+<X>357</X>
+<Y>489</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="458" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="454" connector-kind="socket" connector-type="number" init-type="number" label="针脚#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="454">
+<Label>2</Label>
+<Location>
+<X>543</X>
+<Y>489</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="453" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="df_adjustable_infrared_sensor_switch" id="455">
+<Location>
+<X>315</X>
+<Y>549</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="452" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="456" connector-kind="socket" connector-type="number" init-type="number" label="针脚#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="456">
+<Label>3</Label>
+<Location>
+<X>501</X>
+<Y>549</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="455" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="if" id="451">
+<Location>
+<X>189</X>
+<Y>486</Y>
+</Location>
+<BeforeBlockId>444</BeforeBlockId>
+<AfterBlockId>460</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="452" connector-kind="socket" connector-type="boolean" init-type="boolean" label="test" position-type="single"/>
+<BlockConnector con-block-id="459" connector-kind="socket" connector-type="cmd" init-type="cmd" label="then" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="and" id="452">
+<Location>
+<X>269</X>
+<Y>489</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="451" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="458" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+<BlockConnector con-block-id="455" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="motor_go_stop" id="450">
+<Location>
+<X>266</X>
+<Y>452</Y>
+</Location>
+<BeforeBlockId>444</BeforeBlockId>
+</Block>
+<Block genus-name="df_adjustable_infrared_sensor_switch" id="448">
+<Location>
+<X>315</X>
+<Y>387</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="445" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="449" connector-kind="socket" connector-type="number" init-type="number" label="针脚#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="449">
+<Label>3</Label>
+<Location>
+<X>501</X>
+<Y>387</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="448" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="df_adjustable_infrared_sensor_switch" id="446">
+<Location>
+<X>315</X>
+<Y>327</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="445" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="447" connector-kind="socket" connector-type="number" init-type="number" label="针脚#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="447">
+<Label>2</Label>
+<Location>
+<X>501</X>
+<Y>327</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="446" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="and" id="445">
+<Location>
+<X>269</X>
+<Y>327</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="444" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="446" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+<BlockConnector con-block-id="448" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="if" id="444">
+<Location>
+<X>189</X>
+<Y>324</Y>
+</Location>
+<BeforeBlockId>441</BeforeBlockId>
+<AfterBlockId>451</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="445" connector-kind="socket" connector-type="boolean" init-type="boolean" label="test" position-type="single"/>
+<BlockConnector con-block-id="450" connector-kind="socket" connector-type="cmd" init-type="cmd" label="then" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="analog_write" id="441">
+<Location>
+<X>189</X>
+<Y>270</Y>
+</Location>
+<BeforeBlockId>438</BeforeBlockId>
+<AfterBlockId>444</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="482" connector-kind="socket" connector-type="number" init-type="number" label="num" position-type="single"/>
+<BlockConnector con-block-id="443" connector-kind="socket" connector-type="number" init-type="number" label="num" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="variable_number" id="443">
+<Label>RS</Label>
+<Location>
+<X>321</X>
+<Y>297</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="441" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="variable_number" id="440">
+<Label>LS</Label>
+<Location>
+<X>321</X>
+<Y>243</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="438" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="analog_write" id="438">
+<Location>
+<X>189</X>
+<Y>216</Y>
+</Location>
+<BeforeBlockId>435</BeforeBlockId>
+<AfterBlockId>441</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="481" connector-kind="socket" connector-type="number" init-type="number" label="num" position-type="single"/>
+<BlockConnector con-block-id="440" connector-kind="socket" connector-type="number" init-type="number" label="num" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="setter_variable_number" id="435">
+<Location>
+<X>189</X>
+<Y>162</Y>
+</Location>
+<BeforeBlockId>432</BeforeBlockId>
+<AfterBlockId>438</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="436" connector-kind="socket" connector-type="number" init-type="number" label="变量" position-type="single"/>
+<BlockConnector con-block-id="437" connector-kind="socket" connector-type="number" init-type="number" label="数值" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="437">
+<Label>0</Label>
+<Location>
+<X>381</X>
+<Y>189</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="435" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="variable_number" id="436">
+<Label>RS</Label>
+<Location>
+<X>381</X>
+<Y>165</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="435" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="434">
+<Label>40</Label>
+<Location>
+<X>381</X>
+<Y>135</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="432" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="setter_variable_number" id="432">
+<Location>
+<X>189</X>
+<Y>108</Y>
+</Location>
+<BeforeBlockId>431</BeforeBlockId>
+<AfterBlockId>435</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="433" connector-kind="socket" connector-type="number" init-type="number" label="变量" position-type="single"/>
+<BlockConnector con-block-id="434" connector-kind="socket" connector-type="number" init-type="number" label="数值" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="variable_number" id="433">
+<Label>LS</Label>
+<Location>
+<X>381</X>
+<Y>111</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="432" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="loop" id="431">
+<Location>
+<X>100</X>
+<Y>100</Y>
+</Location>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="432" connector-kind="socket" connector-type="cmd" init-type="cmd" label="执行" position-type="single"/>
+</Sockets>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>
