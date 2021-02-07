@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-06-08 00:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Karnaugh Map Minimizer"
+msgstr ""
+
+msgid "&About"
+msgstr ""
+
+msgid "About the program"
+msgstr ""
+
+msgid "E&xit"
+msgstr ""
+
+msgid "Exit the program"
+msgstr ""
+
+msgid "English (default)"
+msgstr ""
+
+msgid "Set language to english"
+msgstr ""
+
+msgid "Croatian"
+msgstr ""
+
+msgid "Set language to croatian"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Set language (requires restart)"
+msgstr ""
+
+msgid "Show zeros"
+msgstr ""
+
+msgid "Show / hide zero values"
+msgstr ""
+
+msgid "Show cell adresses"
+msgstr ""
+
+msgid "Show / hide cell adresses in the K-map"
+msgstr ""
+
+msgid "&Program"
+msgstr ""
+
+msgid "&Settings"
+msgstr ""
+
+msgid "Welcome to Karnaugh Map Minimizer!"
+msgstr ""
+
+msgid "Truth table"
+msgstr ""
+
+msgid "Solve"
+msgstr ""
+
+msgid "Solution:"
+msgstr ""
+
+msgid "Karnaugh map"
+msgstr ""
+
+msgid "Number of variables: "
+msgstr ""
+
+msgid "Type of solution: "
+msgstr ""
+
+msgid "Sum of products"
+msgstr ""
+
+msgid "Product of sums"
+msgstr ""
+
+msgid "Solving, please wait..."
+msgstr ""
+
+msgid "Karnaugh map solved!"
+msgstr ""
+
+msgid "You have to restart the program for this change to take effect."
+msgstr ""
+
+msgid "Restart required"
+msgstr ""
+
+msgid ""
+"This is a program for minimizing boolean functions using Karnaugh maps "
+"method.\n"
+"\n"
+"Copyright (C) 2005. Robert Kovacevic"
+msgstr ""
+
+msgid "About Karnaugh Map Minimizer"
+msgstr ""
+
+msgid "Set to 1"
+msgstr ""
+
+msgid "Set to 0"
+msgstr ""
+
+msgid "Set to \"don't care\""
+msgstr ""
+
+msgid "Set randomly"
+msgstr ""
